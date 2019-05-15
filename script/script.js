@@ -113,6 +113,10 @@ function outputToInput(s,wiki){
     $Latin+=$firstChar+$therestofchar;
     if(wiki==1)
       $Latin=$Latin.substring(0,$Latin.length-1)+$symbol+" ";//ou-yerb
+      else {
+          $Latin=$Latin.substring(0,$Latin.length)+" ";
+          console.log($Latin);
+      }
    }
    else {
      $Latin+=($slist[i])+" ";
