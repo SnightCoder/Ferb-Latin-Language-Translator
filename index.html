@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nam Phạm - Ferb Latin Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
+  </head>
+  <body>
+    <h1 class="center">Ferb Latin Converter</h1>
+    <textarea onKeyUp="return onChangeInput()" id="in" class="textarea-scrollbar scrollbar-outer" name="name" rows="8" cols="80" placeholder="Your language..."></textarea>
+
+    <textarea onkeyup="onChangeOutput()" id="out" class="textarea-scrollbar scrollbar-outer" name="name" rows="8" cols="80" placeholder="Ferb Latin language..."></textarea>
+
+<p  class="setting">Setting</p>
+    <label class="container">Hyphen
+    <input id="wikiCheck" type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Stop for vowels <span class="hint">(This function is being developed)</span>
+    <input id="VowelsCheck" type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Capitalize the first letter
+    <input id="CapitalizeCheck" type="checkbox" value="0">
+    <span class="checkmark"></span>
+    </label>
+
+
+    <h6>The Tool Created By Nam Phạm</h6>
+  </body>
+</html>
