@@ -115,7 +115,6 @@ function outputToInput(s,wiki){
       $Latin=$Latin.substring(0,$Latin.length-1)+$symbol+" ";//ou-yerb
       else {
           $Latin=$Latin.substring(0,$Latin.length)+" ";
-
       }
    }
    else {
