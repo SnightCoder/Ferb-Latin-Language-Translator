@@ -76,6 +76,7 @@ function inputToOutput(s,wiki,vowel,capitalize){
       $firstChar+=therestofchars[j];
     }
   }
+
     var therestofchar=($slist[i]).substring($firstChar.length,($slist[i]).length);
     if(capitalize==1)
     if(firstChars == firstChars.toUpperCase())
