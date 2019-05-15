@@ -1,6 +1,5 @@
 function buttonremovehyphenclick(){
   document.getElementById("in").value=document.getElementById("in").value.replace(/-/gi," ");
-  alert("Removed");
 }
 
 function isVowel(x) {
