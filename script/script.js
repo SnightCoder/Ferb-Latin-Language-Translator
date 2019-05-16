@@ -108,7 +108,7 @@ function outputToInput(s,wiki){
      checks=($slist[i]).substring(0,($slist[i]).length-1);
      $check=checks.substring(checks.length-3);
    }
-    if($check == ("erb")){
+    if($check.toUpperCase() == ("ERB")){
     if($symbol=="")
     $therestofchar=($slist[i]).substring(0,($slist[i]).length-3);
     else
